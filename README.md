@@ -2,6 +2,10 @@
 
 This project automates testing of the SauceDemo e-commerce website using Selenium with Python and Pytest framework.
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Selenium](https://img.shields.io/badge/Selenium-Automation-green)
+![Pytest](https://img.shields.io/badge/Pytest-Framework-yellow)
+![Status](https://img.shields.io/badge/Tests-Passing-brightgreen)
 ---
 
 # 📌 Project Overview
@@ -110,15 +114,42 @@ pytest --html=reports/report.html
 
 ---
 
-# 📸 Screenshots
+# 📸 Project Screenshots
 
 Screenshots are automatically saved inside the screenshots folder after successful test execution.
+
+## Login Test
+
+![Login Screenshot](screenshots/login.png)
+
+---
+
+## Cart Test
+
+![Cart Screenshot](screenshots/cart_test.png)
+
+---
+
+## Checkout Test
+
+![Checkout Screenshot](screenshots/checkout.png)
+
+---
+
+## Logout Test
+
+![Logout Screenshot](screenshots/logout.png)
 
 ---
 
 # 📊 HTML Reports
 
 HTML reports are generated inside the reports folder.
+
+
+
+![HTML Report](screenshots/report.png)
+
 
 ---
 
