@@ -70,7 +70,7 @@ https://www.saucedemo.com/
 
 <td align="center" width="180">
 
-<img src="https://raw.githubusercontent.com/pytest-dev/pytest-html/master/docs/_static/pytest-html-logo.png" width="90"/>
+<img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" width="70"/>
 
 ### Pytest HTML Report
 
