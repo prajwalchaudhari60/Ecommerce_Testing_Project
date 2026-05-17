@@ -70,9 +70,11 @@ https://www.saucedemo.com/
 
 <td align="center" width="180">
 
-<img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" width="70"/>
+<img src="screenshots/pytest-html.png" width="150"/>
 
 ### Pytest HTML Report
+
+</td>
 
 </td>
 
