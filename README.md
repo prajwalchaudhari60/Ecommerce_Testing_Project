@@ -123,7 +123,6 @@ Ecommerce_Testing_Project/
 ├── pytest.ini
 └── requirements.txt
 
-# ├── conftest.py
 ```
 
 ---
