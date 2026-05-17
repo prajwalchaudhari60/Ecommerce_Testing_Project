@@ -1,11 +1,12 @@
 # 🛒 E-Commerce Website Testing Automation
 
-This project automates testing of the SauceDemo e-commerce website using Selenium with Python and Pytest framework.
+This project automates testing of the SauceDemo e-commerce website using Selenium WebDriver with Python and Pytest Framework.
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Selenium](https://img.shields.io/badge/Selenium-Automation-green)
 ![Pytest](https://img.shields.io/badge/Pytest-Framework-yellow)
 ![Status](https://img.shields.io/badge/Tests-Passing-brightgreen)
+
 ---
 
 # 📌 Project Overview
@@ -17,9 +18,9 @@ The main objective of this project is to perform:
 - Functional Testing
 - UI Testing
 
-on the SauceDemo application.
+on the SauceDemo E-Commerce application.
 
-Website Used:
+🔗 Website Used:  
 https://www.saucedemo.com/
 
 ---
@@ -28,6 +29,7 @@ https://www.saucedemo.com/
 
 ✅ Login Functionality  
 ✅ Add Product to Cart  
+✅ Remove Product from Cart  
 ✅ Checkout Process  
 ✅ Logout Functionality  
 ✅ Screenshot Capture  
@@ -37,26 +39,59 @@ https://www.saucedemo.com/
 
 # 🛠 Technologies Used
 
-<p align="left">
+<table>
+<tr>
+<td align="center" width="180">
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40"/> <b>Python</b>  
-<br><br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="55"/>
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" width="40" height="40"/> <b>Selenium WebDriver</b>  
-<br><br>
+### Python
 
-<img src="https://pytest.org/en/latest/_static/pytest_logo_curves.svg" width="90"/> <b>Pytest Framework</b>  
-<br><br>
+</td>
 
-<img src="https://raw.githubusercontent.com/pytest-dev/pytest-html/master/docs/_static/pytest-html-logo.png" width="120"/> <b>Pytest HTML Report</b>  
-<br><br>
+<td align="center" width="180">
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" height="40"/> <b>Visual Studio Code (VS Code)</b>  
-<br><br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" width="55"/>
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="40" height="40"/> <b>Google Chrome Browser</b>
+### Selenium WebDriver
 
-</p>
+</td>
+
+<td align="center" width="180">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Pytest_logo.svg" width="70"/>
+
+### Pytest Framework
+
+</td>
+</tr>
+
+<tr>
+<td align="center" width="180">
+
+<img src="https://miro.medium.com/v2/resize:fit:786/format:webp/1*U0xLCQxWUHm1ZNQO8qB5VA.png" width="90"/>
+
+### Pytest HTML Report
+
+</td>
+
+<td align="center" width="180">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="55"/>
+
+### VS Code
+
+</td>
+
+<td align="center" width="180">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="55"/>
+
+### Google Chrome
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -83,14 +118,31 @@ Ecommerce_Testing_Project/
 │
 ├── README.md
 ├── pytest.ini
+├── conftest.py
 └── requirements.txt
 ```
 
 ---
 
-# ▶️ How to Run Project
+# ▶️ How to Run the Project
 
-## Step 1 — Install Dependencies
+## Step 1 — Clone Repository
+
+```bash
+git clone https://github.com/prajwalchaudhari60/Ecommerce_Testing_Project.git
+```
+
+---
+
+## Step 2 — Navigate to Project Folder
+
+```bash
+cd Ecommerce_Testing_Project
+```
+
+---
+
+## Step 3 — Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -98,7 +150,7 @@ pip install -r requirements.txt
 
 ---
 
-## Step 2 — Run Tests
+## Step 4 — Run Automation Tests
 
 ```bash
 python -m pytest
@@ -106,7 +158,7 @@ python -m pytest
 
 ---
 
-## Step 3 — Generate HTML Report
+## Step 5 — Generate HTML Report
 
 ```bash
 pytest --html=reports/report.html
@@ -116,72 +168,82 @@ pytest --html=reports/report.html
 
 # 📸 Project Screenshots
 
-Screenshots are automatically saved inside the screenshots folder after successful test execution.
+Screenshots are automatically saved inside the `screenshots/` folder after test execution.
 
-## Login Test
+## 🔐 Login Test
 
 ![Login Screenshot](screenshots/login.png)
 
 ---
 
-## Cart Test
+## 🛒 Cart Test
 
 ![Cart Screenshot](screenshots/cart_test.png)
 
 ---
 
-## Checkout Test
+## 💳 Checkout Test
 
 ![Checkout Screenshot](screenshots/checkout.png)
 
 ---
 
-## Logout Test
+## 🚪 Logout Test
 
 ![Logout Screenshot](screenshots/logout.png)
 
 ---
 
-# 📊 HTML Reports
+# 📊 HTML Report
 
-HTML reports are generated inside the reports folder.
-
-
+HTML reports are generated inside the `reports/` folder.
 
 ![HTML Report](screenshots/report.png)
-
 
 ---
 
 # 🧪 Test Scenarios Covered
 
-| Module | Scenario |
+| Module | Test Scenario |
 |---|---|
 | Login | Valid & Invalid Login |
-| Cart | Add Product to Cart |
-| Checkout | Complete Product Checkout |
+| Cart | Add & Remove Product |
+| Checkout | Complete Checkout Process |
 | Logout | Logout Functionality |
 
 ---
 
 # 📁 Manual Testing Documents
 
-The project also contains:
+The project also contains manual testing documentation inside the `manual_testing/` folder:
 
-- Test Cases
-- Bug Reports
-- RTM
-- Test Plan
+- ✅ Test Cases
+- ✅ Bug Reports
+- ✅ RTM (Requirement Traceability Matrix)
+- ✅ Test Plan
+- ✅ Test Execution Report
 
-inside the manual_testing folder.
+---
+
+# ⚙️ Automation Framework
+
+This project follows the **Page Object Model (POM)** framework structure.
+
+## Framework Advantages
+
+- Reusable Code
+- Better Maintainability
+- Easy Test Execution
+- Improved Readability
+- Scalable Automation Structure
 
 ---
 
 # 👨‍💻 Author
 
-Prajwal Chaudhari
+## Prajwal Chaudhari
 
-GitHub:
+🔗 GitHub Profile:  
 https://github.com/prajwalchaudhari60
 
 ---
@@ -189,7 +251,16 @@ https://github.com/prajwalchaudhari60
 # ⭐ Future Enhancements
 
 - Data Driven Testing
-- Jenkins Integration
-- Logging
+- Jenkins CI/CD Integration
+- Logging Framework
 - Cross Browser Testing
 - Headless Browser Execution
+- Docker Integration
+
+---
+
+# 📌 Conclusion
+
+This project demonstrates real-time QA Automation Testing concepts using Selenium, Python, and Pytest.
+
+The framework validates major e-commerce functionalities and generates professional HTML reports with proper test execution results.
