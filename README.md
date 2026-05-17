@@ -121,8 +121,9 @@ Ecommerce_Testing_Project/
 │
 ├── README.md
 ├── pytest.ini
-├── conftest.py
 └── requirements.txt
+
+# ├── conftest.py
 ```
 
 ---
