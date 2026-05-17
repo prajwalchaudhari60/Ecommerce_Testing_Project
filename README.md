@@ -69,7 +69,7 @@ https://www.saucedemo.com/
 <tr>
 <td align="center" width="180">
 
-<img src="https://miro.medium.com/v2/resize:fit:786/format:webp/1*U0xLCQxWUHm1ZNQO8qB5VA.png" width="90"/>
+<img src="https://pytest-html.readthedocs.io/en/latest/_static/pytest-html-logo.png" width="90"/>
 
 ### Pytest HTML Report
 
